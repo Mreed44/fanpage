@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    background-color: #f966f7;
     
 }
 a {
@@ -11,9 +12,102 @@ a {
 }
 
 .main {
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
     height: 100%;
+    background-image: url("https://imagesvc.timeincapp.com/v3/fan/image?url=https://culturess.com/files/2018/02/RuPaul_S10_Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.thumbnail-image {
+    width: 450px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    margin: 10px;
+}
+.thumbnail-image:hover {
+    border-color: #6d00e2;
+    transform: scale(1.10);
+}
+
+.header {
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 90px;
+}
+.slogan {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    margin: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 35px;
+    border-style: solid;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ru{
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
+    height: 200px;
+    margin: 10px;
+}
+
+.social{
+    display:flex;
+    justify-content: space-around;
+}
+p {
+    text-align: center;
+}
+.ruGifs{
+    display: flex;
+    align-items: flex-end;
+}
+
+.shade {
+    height: 200px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.aboutMain {
+    display: flex;
+    flex-direction: row;
+}
+.rightPane {
+    display: flex;
+    margin: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
+}
+.leftPane {
+    margin: 30px;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 25px;
+}
+
+a:hover{
+    transform: scale(1.10);
 }
